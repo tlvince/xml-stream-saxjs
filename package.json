@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/assistunion/xml-stream.git"
+    "url": "git://github.com/JaredLincenberg/xml-stream.git"
   },
   "dependencies": {
     "browser-or-node": "^1.3.0",
