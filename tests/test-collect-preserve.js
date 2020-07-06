@@ -16,12 +16,13 @@ describe('XmlStream', function() {
 		xml.collect('subitem');
 		xml.on('endElement: item', function(item) {
 		  results.push(item);
+		  console.log(item)
 		});
 
 		xml.on('end', function () {
 
 			var expected = JSON.parse(fileExpected);
-
+			console.log(results, expected)
 			assert.deepEqual(results, expected);
 			done();
 		});
