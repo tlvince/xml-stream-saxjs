@@ -1,1 +1,1 @@
-module.exports = require('./lib/xml-stream.js').default;
+module.exports = require('./lib/xml-stream.js');
