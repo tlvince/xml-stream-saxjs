@@ -1,11 +1,7 @@
-# XmlStream
+# XmlStreamSax
 
-XmlStream is a Node.js XML stream parser and editor, based on
-When in a node environment: [node-expat](https://github.com/astro/node-expat) (libexpat SAX-like parser
-binding).
+XmlStreamSax is a Node.js XML stream parser and editor, based on
 When in a browser environment: [sax-js](https://github.com/isaacs/sax-js).
-
-    <!-- $ npm install xml-stream -->
 
 ## Rationale
 
