@@ -29,6 +29,6 @@
   },
   "main": "index",
   "devDependencies": {
-    "mocha": "^1.21.4"
+    "mocha": "^8.0.1"
   }
 }

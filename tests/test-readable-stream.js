@@ -33,7 +33,7 @@ describe('XmlStream', function() {
 		});
 
 		xml.on('end', function () {
-			console.log(results.length)
+			// console.log(results.length)
 			assert(results.length);
 			done();
 		});
