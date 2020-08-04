@@ -1,5 +1,5 @@
 {
-  "name": "xml-stream-sax",
+  "name": "@jaredlincenberg/xml-stream-saxjs",
   "description": "XML stream to JavaScript object converter based on Sax.",
   "keywords": [
     "xml",
@@ -7,27 +7,36 @@
     "sax"
   ],
   "license": "MIT",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
     "Jared Lincenberg <jaredlincenberg@gmail.com>"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "mocha tests"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JaredLincenberg/xml-stream.git"
+    "url": "git+https://github.com/JaredLincenberg/xml-stream-saxjs.git"
   },
   "dependencies": {
     "readable-stream": "^1.0.31",
     "sax": "^1.2.4"
   },
   "directories": {
-    "lib": "./lib"
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
   },
   "main": "index",
   "devDependencies": {
     "mocha": "^8.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JaredLincenberg/xml-stream-saxjs/issues"
+  },
+  "homepage": "https://github.com/JaredLincenberg/xml-stream-saxjs#readme"
 }
